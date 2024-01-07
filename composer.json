@@ -1,0 +1,21 @@
+{
+    "name": "fhsinchy/inspire",
+    "description": "Inspire Package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fhsinchy\\Inspire\\": "packages/fhsinchy/inspire/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "k khaing nyein",
+            "email": "kkhaing.kk2016@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
